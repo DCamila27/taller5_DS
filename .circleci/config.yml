@@ -28,9 +28,8 @@ jobs:
       - run:
           name: Deploy to Railway App
           command: |
-            cd bankchurn-api 
-            railway up --service=disciplined-learning
-            railway up --detach
+            cd bankchurn-api
+            railway up --service=disciplined-learning --detach
 
 
 tags_only: &tags_only
